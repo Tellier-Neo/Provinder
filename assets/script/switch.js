@@ -1,50 +1,37 @@
-function switchToNotRegister() {
-    const loginDiv = document.querySelector('.login');
-    const registerDiv = document.querySelector('.register');
+function loginhide() {
+    var loginDiv = document.querySelector(".login");
+    var registerDiv = document.querySelector(".register");
 
+    loginDiv.style.display = "none";
 
-    loginDiv.classList.add('transition');
-
-
-    loginDiv.style.transform = 'translateX(-100%)';
-    loginDiv.style.opacity = '0';
-
-    
-    registerDiv.style.display = 'flex';
-
-    
-    setTimeout(() => {
-        loginDiv.classList.remove('transition');
-    }, 500); 
+    registerDiv.style.display = "flex";
 }
 
-document.addEventListener('DOMContentLoaded', function () {
-    const notRegisteredHeading = document.getElementById('notregistered');
+function registerhide() {
+    var loginDiv = document.querySelector(".login");
+    var registerDiv = document.querySelector(".register");
 
-    notRegisteredHeading.addEventListener('click', switchToNotRegister);
+    registerDiv.style.display = "none";
+
+    loginDiv.style.display = "flex";
+}
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    var notRegisteredDiv = document.getElementById("notregistered");
+
+    notRegisteredDiv.addEventListener("click", function() {
+        loginhide();
+    });
 });
 
-function switchToAlreadyRegistered() {
-    const loginDiv = document.querySelector('.login');
-    const registerDiv = document.querySelector('.register');
+document.addEventListener("DOMContentLoaded", function() {
+    var alreadyHaveH3 = document.getElementById("alreadyhave");
 
- 
-    registerDiv.classList.add('transition');
-
- 
-    registerDiv.style.transform = 'translateX(-100%)';
-    registerDiv.style.opacity = '0';
-
-    loginDiv.style.display = 'flex';
-
-    
-    setTimeout(() => {
-        registerDiv.classList.remove('transition');
-    }, 500); 
-}
-
-document.addEventListener('DOMContentLoaded', function () {
-    const alreadyHaveHeading = document.getElementById('alreadyhave');
-
-    alreadyHaveHeading.addEventListener('click', switchToAlreadyRegistered);
+    alreadyHaveH3.addEventListener("click", function() {
+        registerhide();
+    });
 });
