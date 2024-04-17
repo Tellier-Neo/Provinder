@@ -3,18 +3,163 @@ body {
 }
 
 #mainlogo_Lsize {
-    position: fixed;      
-    top: 0;               
-    left: 0;              
-    min-width: 100px;     
-    max-width: 300px;     
-    min-height: 100px;    
-    max-height: 300px;    
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100px;
+    max-width: 300px;
+    min-height: 100px;
+    max-height: 300px;
     border: 3px solid rgb(0, 0, 0);/
 }
 
 #notregistered {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #FA6A5C;
-
+    font-size: medium;
+    transition: 0.2s ease-out;
 }
+
+#notregistered:hover {
+    cursor: pointer;
+    color: #675CFA;
+    transition: 0.2s ease-in;
+}
+
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #d4d4d4;
+    max-width: 45%;
+    min-width: 30%;
+    margin-top: 250px;
+    margin-bottom: 200px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 8px;
+    border-style: solid;
+    border-color: white;
+    max-height: 450px;
+    min-height: 250px;
+}
+
+.login h2 {
+    align-self: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #FA6A5C;
+    font-style: italic;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.login input {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    max-height: 25px;
+    min-height: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    background-color: white;
+    border: 0;
+    padding: 5px;
+    outline: 0;
+}
+
+.login button {
+    max-width: 80%;
+    max-height: 70%;
+    min-width: 50%;
+    max-width: 40%;
+    align-self: center;
+    background-color: #FA6A5C;
+    color: white;
+    border: 0 ;
+    border-radius: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    padding: 10px 20px;
+    transition: 0.2s ease-in;
+}
+
+.login button:hover {
+    cursor: pointer;
+    background-color: #ca564b;
+    transition: 0.2s ease-out;
+    color: black;
+}
+
+
+.register {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #d4d4d4;
+    max-width: 45%;
+    min-width: 30%;
+    margin-top: 250px;
+    margin-bottom: 200px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 8px;
+    border-style: solid;
+    border-color: white;
+    max-height: 450px;
+    min-height: 250px;
+}
+
+.register h2 {
+    align-self: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #FA6A5C;
+    font-style: italic;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.register input {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    max-height: 25px;
+    min-height: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    background-color: white;
+    border: 0;
+    padding: 5px;
+    outline: 0;
+}
+
+.register button {
+    max-width: 80%;
+    max-height: 70%;
+    min-width: 50%;
+    max-width: 40%;
+    align-self: center;
+    background-color: #FA6A5C;
+    color: white;
+    border: 0 ;
+    border-radius: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    padding: 10px 20px;
+    transition: 0.2s ease-in;
+}
+
+.register button:hover {
+    cursor: pointer;
+    background-color: #ca564b;
+    transition: 0.2s ease-out;
+    color: black;
+}
+
+
