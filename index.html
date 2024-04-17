@@ -7,10 +7,31 @@
     <title>Provinder</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <script src='/assets/style/main.css'></script>
 </head>
+
 <body>
-    <img src="assets/image/" alt="logoprincipal" id="mainlogo_Lsize">
+    <div>
+        <img src="assets/image/" alt="logoprincipal" id="mainlogo_Lsize">
+    </div>
+
+
+    <div class="login">
+        <input type="text" placeholder="Nom d'utilisateur" id="username_input">
+        <input type="password" placeholder="Mot de passe" id="password_input">
+        <button>Se connecter</button>
+        <h3 id="notregistered">Vous n'avez pas de compte ? Créer en un !</h3>
+    </div>
+    <div class="register">
+        <input type="text" placeholder="Nom d'utilisateur" id="username_input">
+        <input type="mail" placeholder="Adress Mail" id="mail_input">
+        <input type="text" placeholder="Nom" id="name_input">
+        <input type="text" placeholder="Prénom" id="overname_input">
+        <input type="date" placeholder="Date de naissance" id="birthdaydate_input">
+        <input type="password" placeholder="Mot de passe" id="password_input">
+        <button>Créer un compte</button>
+        <h3 id="alreadyhave"> Vous avez déjà un compte ? Connectez vous !</h3>
+    </div>
 
 </body>
 

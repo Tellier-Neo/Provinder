@@ -1,0 +1,6 @@
+Couleur 1 : #675CFA
+Couleur 2 : #5CFAA2
+Couleur 3 : #FA6A5C
+Couleur 4 : #FAE15C
+Couleur 5 : #A57874
+Couleur 6 : #6C6A7A
