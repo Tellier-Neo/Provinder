@@ -32,6 +32,7 @@ body {
     font-size: medium;
     transition: 0.2s ease-out;
 }
+
 #alreadyhave:hover {
     cursor: pointer;
     color: #675CFA;
@@ -91,7 +92,7 @@ body {
     align-self: center;
     background-color: #FA6A5C;
     color: white;
-    border: 0 ;
+    border: 0;
     border-radius: 10px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: medium;
@@ -114,7 +115,7 @@ body {
     background-color: #d4d4d4;
     max-width: 45%;
     min-width: 30%;
-    margin-top: 250px;
+    margin-top: 350px;
     margin-bottom: 200px;
     position: absolute;
     left: 50%;
@@ -125,9 +126,10 @@ body {
     padding-top: 8px;
     border-style: solid;
     border-color: white;
-    max-height: 450px;
+    max-height: 600px;
     min-height: 250px;
     transition: 250ms;
+
 }
 
 .register h2 {
@@ -160,7 +162,7 @@ body {
     align-self: center;
     background-color: #FA6A5C;
     color: white;
-    border: 0 ;
+    border: 0;
     border-radius: 10px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: medium;
@@ -175,3 +177,20 @@ body {
     color: black;
 }
 
+.register label {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+}
+
+.register select {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    max-height: 35px;
+    min-height: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    background-color: white;
+    border: 0;
+    outline: 0;
+    font-size: smaller;
+}
