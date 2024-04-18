@@ -4,19 +4,47 @@ body {
     background: -webkit-linear-gradient(135deg, rgba(251, 169, 161, 1) 0%, rgba(255, 121, 108, 1) 47%, rgba(240, 139, 17, 1) 100%);
     background: linear-gradient(135deg, rgba(251, 169, 161, 1) 0%, rgba(255, 121, 108, 1) 47%, rgba(240, 139, 17, 1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fba9a1", endColorstr="#f08b11", GradientType=1);
+    
+}
+
+body::-webkit-scrollbar {
+    width: 0px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: dark;
+}
+
+
+body::-webkit-scrollbar-track {
+    background-color: light;
+}
+
+
+html {
+    padding-bottom: 1%;
+    height: 850px;
 }
 
 #mainlogo_Lsize {
     position: absolute;
-    top: 10%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     justify-self: center;
-    min-width: 100px;
+    min-width: 200px;
     max-width: 100px;
     min-height: 100px;
-    max-height: 100px;
-    border: 3px solid rgb(0, 0, 0);/
+    max-height: 200px;
+    border-radius: 50%;
+    border-color: rgb(255, 255, 255);
+    border-width: 0.5px;
+    border-style: solid;
+    background: rgb(251, 206, 201);
+    background: -moz-linear-gradient(168deg, rgba(251, 206, 201, 1) 0%, rgba(246, 154, 90, 1) 36%, rgba(249, 136, 0, 1) 100%);
+    background: -webkit-linear-gradient(168deg, rgba(251, 206, 201, 1) 0%, rgba(246, 154, 90, 1) 36%, rgba(249, 136, 0, 1) 100%);
+    background: linear-gradient(168deg, rgba(251, 206, 201, 1) 0%, rgba(246, 154, 90, 1) 36%, rgba(249, 136, 0, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fbcec9", endColorstr="#f98800", GradientType=1);
 }
 
 #notregistered {
@@ -51,7 +79,7 @@ body {
     justify-content: center;
     max-width: 45%;
     min-width: 30%;
-    margin-top: 280px;
+    margin-top: 370px;
     margin-bottom: 200px;
     position: absolute;
     left: 50%;
@@ -128,8 +156,8 @@ body {
     justify-content: center;
     max-width: 45%;
     min-width: 30%;
-    margin-top: 400px;
-    margin-bottom: 200px;
+    margin-top: 450px;
+    top: 10%;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
