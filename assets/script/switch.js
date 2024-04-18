@@ -16,10 +16,6 @@ function registerhide() {
     loginDiv.style.display = "flex";
 }
 
-
-
-
-
 document.addEventListener("DOMContentLoaded", function() {
     var notRegisteredDiv = document.getElementById("notregistered");
 
