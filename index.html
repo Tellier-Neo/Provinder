@@ -17,6 +17,7 @@
 
         <div class="login">
             <h2>Se connecter</h2>
+            <div class="loginstatus"></div>
             <input type="text" placeholder="Nom d'utilisateur" id="username_input_login">
             <input type="password" placeholder="Mot de passe" id="password_input_login">
             <button onclick="loginUser()">Se connecter</button>
@@ -32,7 +33,7 @@
             <input type="text" placeholder="Prénom" id="overname_input">
             <input type="date" placeholder="Date de naissance" id="birthdaydate_input">
             <input type="password" placeholder="Mot de passe" id="password_input_register">
-            <label for="genre_select">Genre :</label>
+            <label for="genre_select">Je suis :</label>
             <select id="genre_select">
                 <option value="man">Un Homme</option>
                 <option value="woman">Une Femme</option>
@@ -47,6 +48,7 @@
             <h3 id="alreadyhave">Vous avez déjà un compte ? Connectez-vous !</h3>
         </div>
     </div>
+    <script src="/assets/script/register.js"></script>
     <script src="/assets/script/login.js"></script>
     <script src="/assets/script/switch.js"></script>
 </body>

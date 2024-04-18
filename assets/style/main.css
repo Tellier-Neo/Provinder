@@ -249,3 +249,12 @@ html {
     -webkit-backdrop-filter: blur(7.1px);
     padding: 5px;
 }
+
+.accountregister_statut.error {
+    color: red;
+    font-weight: bold;
+}
+
+.loginstatus {
+    text-align: center;
+}
