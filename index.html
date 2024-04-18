@@ -19,12 +19,13 @@
             <h2>Se connecter</h2>
             <input type="text" placeholder="Nom d'utilisateur" id="username_input_login">
             <input type="password" placeholder="Mot de passe" id="password_input_login">
-            <button>Se connecter</button>
+            <button onclick="loginUser()">Se connecter</button>
             <h3 id="notregistered">Vous n'avez pas de compte ? Créer en un !</h3>
         </div>
 
         <div class="register">
             <h2>Créer un compte</h2>
+            <div class="accountregister_statut"></div>
             <input type="text" placeholder="Nom d'utilisateur" id="username_input_register">
             <input type="email" placeholder="Adresse Mail" id="mail_input">
             <input type="text" placeholder="Nom" id="name_input">
@@ -42,10 +43,11 @@
                 <option value="woman">Des femmes</option>
                 <option value="both">Les deux</option>
             </select>
-            <button onclick="">Créer un compte</button>
+            <button onclick="registerUser()">Créer un compte</button>
             <h3 id="alreadyhave">Vous avez déjà un compte ? Connectez-vous !</h3>
         </div>
     </div>
+    <script src="/assets/script/login.js"></script>
     <script src="/assets/script/switch.js"></script>
 </body>
 
