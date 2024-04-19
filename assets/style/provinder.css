@@ -1,5 +1,5 @@
 body {
-    max-height: fit-content;
+   
     padding: 15%;
     background: rgb(251, 169, 161);
     background: -moz-linear-gradient(135deg, rgba(251, 169, 161, 1) 0%, rgba(255, 121, 108, 1) 47%, rgba(240, 139, 17, 1) 100%);
@@ -9,24 +9,45 @@ body {
   
 }
 
-#LogoSwipe {
-    position: relative;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    justify-self: center;
-    min-width: 200px;
-    max-width: 100px;
-    min-height: 100px;
-    max-height: 200px;
+.choice {
+    max-width: 50px;
+    max-height: 50px;
     border-radius: 50%;
-    border-color: rgb(255, 255, 255);
-    border-width: 0.5px;
+    padding: 5px;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
     border-style: solid;
-    background: rgb(251, 206, 201);
-    background: -moz-linear-gradient(168deg, rgba(251, 206, 201, 1) 0%, rgba(246, 154, 90, 1) 36%, rgba(249, 136, 0, 1) 100%);
-    background: -webkit-linear-gradient(168deg, rgba(251, 206, 201, 1) 0%, rgba(246, 154, 90, 1) 36%, rgba(249, 136, 0, 1) 100%);
-    background: linear-gradient(168deg, rgba(251, 206, 201, 1) 0%, rgba(246, 154, 90, 1) 36%, rgba(249, 136, 0, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fbcec9", endColorstr="#f98800", GradientType=1);
+    margin-left: 8%;
+    margin-right: 8%;
+    transition: 250ms;
+}
 
+.choice:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 250ms;
+}
+
+.swipe_container {
+    min-height: 800px;
+    min-width: 450px;
+    max-height: 800px;
+    max-width: 450px;
+    padding: 15px;
+    background-color: white;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 64px;
+    margin-top: 0;
+    margin-right: 0;
+    margin: 15%;
+    justify-self: center;
+
+}
+
+#buttonlist {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
 }
